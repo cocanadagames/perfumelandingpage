@@ -1,0 +1,223 @@
+body{
+    background: #F2EAE2;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.MainContainer{
+    background: white;
+    width: 343px;
+    height: 611px;
+    border-radius: 10px;
+}
+
+.MainImage{
+    width: 343px;
+    height: 240px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.ContentColumn{
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    margin-bottom: 20px;      
+}   
+
+.WhatItem{  
+    /* Font Display */
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 15px;
+
+   /* identical to box height */
+   letter-spacing: 5px;
+
+   /* Aurometal Saurus */
+   color: #6C7289;
+
+   /* Spacing */
+   width: 92px; 
+   margin-left: 24px;
+}
+
+.MainHeading{
+   /* Font Display */
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 32px;   
+
+   /* Gunmetal */
+   color: #1C232B;
+
+    /* Spacing */
+   width: 295px;
+   margin-top:12px;
+   margin-left:24px;
+   margin-bottom: 0px; 
+}
+
+.MainPara{
+    /* Font Display */
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 23px; 
+
+   /* Aurometal Saurus */
+   color: #6C7289;
+
+    /* Spacing */
+    width: 295px;
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-bottom: 0px;
+}
+
+.PriceContent{
+    margin-left: 24px;
+    margin-top: 24px !important;
+    display: flex;
+    align-items:center;
+}
+
+.PriceCurrent{
+   /* Font Display */
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 32px;
+
+   /* Deep Aquamarine */
+   color: #3D8168;
+
+    /* Spacing */
+    display: inline-block;
+    margin-bottom: 0px;    
+}
+
+.PriceStriked{
+    /* Font Display */
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px; 
+    text-decoration-line: line-through;
+
+    /* Aurometal Saurus */
+    color: #6C7289;
+    margin-left: 20px;
+}
+
+.CartImg{
+   display: inline-block;    
+   margin-right: 10px;
+}
+
+.AddtoCart{
+   /* Spacing */
+   width: 295px;
+   height: 48px;
+   border-style:none;
+   margin-top: 20px;
+   margin-left: 24px; 
+
+   /* Deep Aquamarine */
+   background: #3D8168;
+   border-radius: 8px;
+   /* Button Text */
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FFFFFF;
+}
+
+.AddtoCart:hover{
+   background: #1A4032;
+   border-radius: 8px;
+}
+
+@media (min-width: 600px) {    
+    .MainContainer{
+        background: white;
+        width: 600px;
+        height: 450px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .MainImage{
+        width: 300px;
+        height: 450px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .ContentColumn{
+        width: 50%;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    .WhatItem{         
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    .MainHeading{ 
+        width: 236px;
+        margin-top:20px;
+        margin-left:32px;        
+     }
+        
+    .MainPara{
+        width: 236px;
+        margin-top: 24px;
+        margin-left: 32px;
+        margin-bottom: 0px;
+    }
+
+    .PriceContent{
+        display: flex;
+        flex-direction: row;    
+        align-items: center;
+        margin-left: 32px;
+        margin-top: 30px !important;
+    }
+
+    .PriceCurrent{ 
+        margin: 0px;
+     }
+     
+     .PriceStriked{
+        margin-left: 20px;
+     }
+
+     .AddtoCart{
+        /* Spacing */
+        width: 236px;
+        height: 48px;
+        border-style:none;
+        margin-top: 30px;
+        margin-left: 32px;      
+     }
+   
+}
+
+    

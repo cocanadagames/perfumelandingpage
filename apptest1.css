@@ -1,0 +1,228 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #F2EAE2;
+}
+
+
+.container{
+    padding: 0px;
+    margin: 0px;
+    width: 600px;
+    height: 450px;   
+}
+
+.row{
+    margin: 0px;
+}
+
+.col-md-6{ 
+    padding: 0px;
+}
+
+.MainImage{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.coltwodesign{
+    background-color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coltwocolind{
+    margin-left: 32px; 
+}
+
+
+
+.WhatItem{  
+    /* Font Display */
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 15px;
+
+   /* identical to box height */
+   letter-spacing: 5px;
+
+   /* Aurometal Saurus */
+   color: #6C7289;
+
+   /* Spacing */ 
+   margin-top: 32px;
+   margin-bottom: 0px;
+   display: inline-block;  
+}
+
+.MainHeading{
+   /* Font Display */
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 32px;   
+
+   /* Gunmetal */
+   color: #1C232B;
+
+    /* Spacing */
+   width: 236px;
+   margin-top:20px;
+   margin-bottom: 0px;
+}
+
+.MainPara{
+    /* Font Display */
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 23px; 
+
+   /* Aurometal Saurus */
+   color: #6C7289;
+
+    /* Spacing */
+    width: 236px;
+    margin-top: 24px;
+    margin-bottom: 0px;  
+}
+
+.PriceContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;    
+}
+
+.PriceCurrent{
+   /* Font Display */
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 32px;
+
+   /* Deep Aquamarine */
+   color: #3D8168;
+
+    /* Spacing */
+    display: inline-block;
+    width: auto;
+    margin-bottom:0px;
+}
+
+.PriceStriked{
+    /* Font Display */
+    display: inline-block;
+    width: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px; 
+    text-decoration-line: line-through;
+    margin-left:20px !important;
+
+    /* Aurometal Saurus */
+    color: #6C7289;
+}
+
+.CartImg{
+   display: inline-block;    
+   margin-right: 10px;
+}
+
+.AddtoCart{
+   /* Spacing */
+   width: 236px;
+   height: 48px;
+   border-style:none;
+   margin-top: 30px; 
+
+   /* Deep Aquamarine */
+   background: #3D8168;
+   border-radius: 8px;
+   /* Button Text */
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FFFFFF;
+}
+
+.AddtoCart:hover{
+   background: #1A4032;
+   border-radius: 8px;
+}
+
+
+
+@media (max-width: 767.98px){ 
+
+    .container{
+        padding: 0px;
+        margin: 0px;
+        max-width: 343px;
+        height: 611px;   
+    }
+
+    .MainImage{
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        max-height: 240px;
+        object-fit: cover;
+    }
+
+    .coltwodesign{
+        background-color: #ffffff;
+        border-radius: 0px 0px 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .coltwocolind{
+        margin-left: 24px; 
+    }
+
+    .WhatItem{      
+       margin-top: 24px;       
+    }
+
+    .MainHeading{
+        width: 295px;
+        margin-top:12px;
+        margin-bottom: 0px;
+     }
+
+     .MainPara{       
+        width: 295px;
+        margin-top: 16px;
+        margin-bottom: 0px;  
+    }
+
+    .PriceContent{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 24px;    
+    }
+
+    .AddtoCart{
+        /* Spacing */
+        width: 295px;
+        height: 48px;
+        border-style:none;
+        margin-top: 20px;
+        margin-bottom: 24px;      
+     }
+    
+   
+}
